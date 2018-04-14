@@ -31,6 +31,51 @@ export class CountrysliderComponent implements OnInit {
       },
       {
         title: 'assets/Images/KSA/2.png',
+      },
+      {
+        title: 'assets/Images/KSA/1.png',
+
+      },
+      {
+        title: 'assets/Images/KSA/2.png',
+
+      },
+      {
+        title: 'assets/Images/KSA/1.png',
+
+      },
+      {
+        title: 'assets/Images/KSA/2.png',
+      },
+      {
+        title: 'assets/Images/KSA/1.png',
+
+      },
+      {
+        title: 'assets/Images/KSA/2.png',
+
+      },
+      {
+        title: 'assets/Images/KSA/1.png',
+
+      },
+      {
+        title: 'assets/Images/KSA/2.png',
+      },
+      {
+        title: 'assets/Images/KSA/1.png',
+
+      },
+      {
+        title: 'assets/Images/KSA/2.png',
+
+      },
+      {
+        title: 'assets/Images/KSA/1.png',
+
+      },
+      {
+        title: 'assets/Images/KSA/2.png',
       }
 
     ]
@@ -38,8 +83,8 @@ export class CountrysliderComponent implements OnInit {
   ngOnInit() {
     this.carouselOne = {
       grid: {xs: 1, sm: 1, md: 1, lg: 1, all: 0},
-      speed: 3400,
-      interval: 3800,
+      speed: 6500,
+      interval: 5800,
       point: {
         visible: false
       },

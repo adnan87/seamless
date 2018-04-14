@@ -26,6 +26,51 @@ export class UaesliderComponent implements OnInit {
         },
         {
           title: 'assets/Images/UAE/4.png',
+        },
+        {
+          title: 'assets/Images/UAE/1.png',
+
+        },
+        {
+          title: 'assets/Images/UAE/2.png',
+
+        },
+        {
+          title: 'assets/Images/UAE/3.png',
+
+        },
+        {
+          title: 'assets/Images/UAE/4.png',
+        },
+        {
+          title: 'assets/Images/UAE/1.png',
+
+        },
+        {
+          title: 'assets/Images/UAE/2.png',
+
+        },
+        {
+          title: 'assets/Images/UAE/3.png',
+
+        },
+        {
+          title: 'assets/Images/UAE/4.png',
+        },
+        {
+          title: 'assets/Images/UAE/1.png',
+
+        },
+        {
+          title: 'assets/Images/UAE/2.png',
+
+        },
+        {
+          title: 'assets/Images/UAE/3.png',
+
+        },
+        {
+          title: 'assets/Images/UAE/4.png',
         }
 
       ] }
@@ -36,7 +81,7 @@ export class UaesliderComponent implements OnInit {
             this.carouselOne = {
               grid: {xs: 1, sm: 1, md: 1, lg: 1, all: 0},
               slide: 1,
-              speed: 6000,
+              speed: 6500,
               interval: 5800,
               point: {
                 visible: false
@@ -49,11 +94,8 @@ export class UaesliderComponent implements OnInit {
           // }, 1000);
 
   }
-  public myfunc(event: Event) {
-      alert('value reached')
-      // carouselLoad will trigger this funnction when your load value reaches
-      // it is helps to load the data by parts to increase the performance of the app
-      // must use feature to all carousel
-   }
+  public afterCarouselViewedFn(data){
+    // alert('load called')
+  }
 
 }

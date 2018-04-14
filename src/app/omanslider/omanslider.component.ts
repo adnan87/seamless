@@ -26,6 +26,51 @@ export class OmansliderComponent implements OnInit {
         },
         {
           title: 'assets/Images/Oman/2.png',
+        },
+        {
+          title: 'assets/Images/Oman/1.png',
+
+        },
+        {
+          title: 'assets/Images/Oman/2.png',
+
+        },
+        {
+          title: 'assets/Images/Oman/1.png',
+
+        },
+        {
+          title: 'assets/Images/Oman/2.png',
+        },
+        {
+          title: 'assets/Images/Oman/1.png',
+
+        },
+        {
+          title: 'assets/Images/Oman/2.png',
+
+        },
+        {
+          title: 'assets/Images/Oman/1.png',
+
+        },
+        {
+          title: 'assets/Images/Oman/2.png',
+        },
+        {
+          title: 'assets/Images/Oman/1.png',
+
+        },
+        {
+          title: 'assets/Images/Oman/2.png',
+
+        },
+        {
+          title: 'assets/Images/Oman/1.png',
+
+        },
+        {
+          title: 'assets/Images/Oman/2.png',
         }
 
       ] }
@@ -34,8 +79,8 @@ export class OmansliderComponent implements OnInit {
     this.carouselOne = {
       grid: {xs: 1, sm: 1, md: 1, lg: 1, all: 0},
       slide: 1,
-      speed: 3400,
-      interval: 3800,
+      speed: 6500,
+      interval: 5800,
       point: {
         visible: false
       },
